@@ -11,4 +11,5 @@ function getFormvalue() {
     } else {
         alert('Please enter both First Name and Last Name.');
     }
+	return false
 }
