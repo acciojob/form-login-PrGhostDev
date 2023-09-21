@@ -1,7 +1,7 @@
 function getFormvalue() {
     //Write your code here
-    let first = document.querySelector('input[name="fname"]');
-    let last = document.querySelector('input[name="lname"]');
+    let first = document.getElementById('first');
+    let last = document.getElementById('second');
 
     let firstName = first.value;
     let lastName = last.value;
