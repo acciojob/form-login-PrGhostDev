@@ -8,8 +8,6 @@ function getFormvalue() {
 
     if (firstName && lastName) {
         alert(`${firstName} ${lastName}`)
-    } else {
-        alert('Please enter both First Name and Last Name.');
-    }
+    } 
 	return false
 }
