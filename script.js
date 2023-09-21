@@ -7,7 +7,7 @@ function getFormvalue() {
     let lastName = last.value;
 
     if (firstName && lastName) {
-        alert(`First Name: ${firstName}\nLast Name: ${lastName}`)
+        alert(`${firstName} ${lastName}`)
     } else {
         alert('Please enter both First Name and Last Name.');
     }
